@@ -1,0 +1,13 @@
+jdsc:
+  datasorce:
+    uri: mongodb://localhost:27017/admin
+    user:
+    password:
+
+  aws:
+    region: us-east-1
+    secremanaer:
+      name: hello
+
+saurav:
+  name: testname

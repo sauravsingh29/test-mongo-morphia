@@ -28,7 +28,6 @@ public class MongoConnection {
                     .maxConnectionIdleTime((30 * 1000))
                     .writeConcern(WriteConcern.ACKNOWLEDGED)
                     .maxConnectionLifeTime((120 * 1000));
-            ;
 
             MongoClientURI uri = new MongoClientURI("mongodb://localhost:27017/admin", options);
 

@@ -1,0 +1,13 @@
+jdsc:
+  datasorce:
+    uri: mongodb://localhost:27017/lexon
+    user: lexon
+    password: LexonApi
+
+  aws:
+    region: us-east-1
+    secremanaer:
+      name: hello
+
+saurav:
+  name: testname
